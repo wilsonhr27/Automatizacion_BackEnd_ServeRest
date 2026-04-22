@@ -73,10 +73,14 @@ UsuariosServeRest
 Para ejecutar todos los tests por el terminal con el siguiente comando:
 
 ```bash
-mvn clean test "-Dkarate.options=--tags @regresion -Dkarate.env=dev
+mvn clean test "-Dkarate.options=--tags @regresion -Dkarate.env=dev"
 ```
 
-Para ejecutar por cada feature seria con el testrunner de usuario:
+-Para ejecutar por cada feature seria con el testrunner de usuario
+-Verificar la ejecucion HTML report: (paste into browser to view) | Karate version: 1.5.0
+file:///C:/API/UsuariosServeRest/target/karate-reports/karate-summary.html
+===================================================================
+
 
 ---
 
